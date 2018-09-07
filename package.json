@@ -1,0 +1,15 @@
+{
+  "name": "language-lpc",
+  "version": "0.0.0",
+  "description": "Language file for the LPC programming language used in MUDs.",
+  "keywords": [
+    "language",
+    "grammar",
+    "lpc"
+  ],
+  "repository": "https://github.com/atom/language-lpc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

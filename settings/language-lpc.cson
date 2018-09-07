@@ -1,0 +1,8 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.lpc':
+  'editor':
+    'commentStart': '// '
+    'increaseIndentPattern': '(?x)\n\t\t^ .* \\{ [^}"\']* $\n\t|   ^ \\s* \\{ \\} $\n\t'
+    'decreaseIndentPattern': '(?x)\n\t\t^ (.*\\*/)? \\s* \\} ( [^}{"\']* \\{ | \\s* while \\s* \\( .* )? [;\\s]* (//.*|/\\*.*\\*/\\s*)? $\n\t'
