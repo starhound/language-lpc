@@ -2522,26 +2522,9 @@ repository:
         match: "\\b[0-9_]+(U|u|L|l|UL|Ul|uL|ul|LU|Lu|lU|lu)?\\b"
       }
     ]
-###  "char-literal":
-    name: "string.quoted.single.cs"
-    begin: "'"
-    beginCaptures:
-      "0":
-        name: "punctuation.definition.char.begin.cs"
-    end: "(\\')|((?:[^\\\\\\n])$)"
-    endCaptures:
-      "1":
-        name: "punctuation.definition.char.end.cs"
-      "2":
-        name: "invalid.illegal.newline.cs"
-    patterns: [
-      {
-        include: "#string-character-escape"
-      }
-    ]###
   "string-literal":
     name: "string.quoted.double.cs"
-    begin: "(?<!@)\"
+    begin: "(?<!@)\""
     beginCaptures:
       "0":
         name: "punctuation.definition.string.begin.cs"
